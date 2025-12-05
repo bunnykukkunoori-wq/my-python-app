@@ -117,7 +117,8 @@ docker build -t my-python-app .
 ```
 docker run --rm --network mynetwork my-python-app
 ```
-![Docker Screenshot](docker2.png)
+![Diagram](images/image.png)
+
 
 
 ### Pushing Image to Docker Hub (Optional)
