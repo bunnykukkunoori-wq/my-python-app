@@ -58,7 +58,7 @@ my-docker-app/
 
 ## Dockerfile
 
-The Dockerfile sets up the Python environment, installs dependencies, and runs the application.
+● The Dockerfile sets up the Python environment, installs dependencies, and runs the application.
 
 ## 1. Writing a Simple Dockerfile (Python App)
 
