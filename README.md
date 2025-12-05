@@ -113,10 +113,14 @@ Run this command inside your project folder:
 docker build -t my-python-app .
 ```
 
-### 4. Run the Python app container on the Custom Network
-``
+### 3. Run the Python app container on the Custom Network
+```
 docker run --rm --network mynetwork my-python-app
-``
+```
+![Diagram](images/image.png)
+
+
+
 ### Pushing Image to Docker Hub (Optional)
 ```
 docker login
@@ -131,6 +135,8 @@ docker push 9148428653/my-python-app:v1
 | 1  | Bunny  | 21    | DevOps    |
 +----+--------+-------+-----------+
 ```
+![Docker Diagram](images/docker1.png)
+
 
 
 ## Technologies Used
