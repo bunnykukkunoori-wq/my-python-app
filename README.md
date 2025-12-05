@@ -1,29 +1,29 @@
 ## Dockerized Python + PostgreSQL Project
 
-This project demonstrates how to containerize a Python application and connect it to a PostgreSQL database using Docker.
+● This project demonstrates how to containerize a Python application and connect it to a PostgreSQL database using Docker.
 The Python app creates a table, inserts a row, retrieves the data, and displays it in a clean table format inside the terminal.
 
 ## Project Overview
 
 ### This project covers:
 
-Creating a Python application
+● Creating a Python application.
 
-Writing a Dockerfile
+● Writing a Dockerfile.
 
-Building and running Docker images
+● Building and running Docker images.
 
-Creating a Docker network
+● Creating a Docker network.
 
-Running PostgreSQL in a separate container
+● Running PostgreSQL in a separate container.
 
-Connecting Python to PostgreSQL using psycopg2
+● Connecting Python to PostgreSQL using psycopg2.
 
-Creating a table and inserting data
+● Creating a table and inserting data.
 
-Printing results using tabulate
+● Printing results using tabulate.
 
-Optionally pushing the Docker image to Docker Hub
+● Optionally pushing the Docker image to Docker Hub.
 
 ## Project Structure
 ```
@@ -43,17 +43,17 @@ my-docker-app/
 
 ### The Python app:
 
-Waits for PostgreSQL to start
+● Waits for PostgreSQL to start.
 
-Connects to the database
+● Connects to the database.
 
-Drops the old table
+● Drops the old table.
 
-Creates a new table (id, name, age, course)
+● Creates a new table (id, name, age, course).
 
-Inserts 1 row into the table
+● Inserts 1 row into the table.
 
-Fetches and prints the result in table format
+● Fetches and prints the result in table format
 
 
 ## Dockerfile
@@ -148,14 +148,14 @@ docker push 9148428653/my-python-app:v1
 
 ## Technologies Used
 
-Python 3.10
+● Python 3.10
 
-PostgreSQL
+● PostgreSQL
 
-Docker
+●Docker
 
-Docker Networks
+● Docker Networks
 
-psycopg2 (PostgreSQL driver)
+● psycopg2 (PostgreSQL driver)
 
-tabulate (Table formatting)
+●tabulate (Table formatting)
