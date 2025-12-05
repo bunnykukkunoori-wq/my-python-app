@@ -27,9 +27,9 @@ Optionally pushing the Docker image to Docker Hub
 
 ## Project Structure
 my-docker-app/
-│── app.py
-│── Dockerfile
-│── README.md
+├── app.py
+├── Dockerfile
+└── README.md
 
 ## Python Application
 
