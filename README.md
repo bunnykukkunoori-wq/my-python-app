@@ -69,6 +69,9 @@ WORKDIR /app
 COPY app.py .
 CMD ["python", "app.py"]
 ```
+### EXpected Output:
+![Docker Screenshot](images/docker3.png)
+
 ## 2. Build and Run Docker Image
 ### 1. Build the Docker image
 ```
